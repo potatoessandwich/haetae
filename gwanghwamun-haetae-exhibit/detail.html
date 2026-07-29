@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>표본 관찰 — 해태 표본실</title>
+<link rel="stylesheet" href="css/style.css?v=2" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">해태 표본실</a>
+    <nav class="crumbs" aria-label="현재 위치">
+      <a href="list.html">표본 선택</a> / <span class="current" id="crumb-current">표본</span>
+    </nav>
+  </header>
+
+  <div class="viewer-wrap">
+    <div id="canvas-host"></div>
+
+    <div class="loading-overlay" id="loading-overlay">
+      <div id="loading-label">SPECIMEN LOADING…</div>
+      <div class="loading-bar"><div class="loading-bar-fill" id="loading-fill"></div></div>
+      <div class="loading-error sr-only" id="loading-error" role="alert"></div>
+      <button class="btn btn-ghost" id="retry-btn" type="button" style="display:none">다시 시도</button>
+    </div>
+
+    <div class="panel panel-modes" id="panel-modes">
+      <button class="mode-btn" data-mode="observe">관찰</button>
+      <button class="mode-btn" data-mode="compare">비교 절개</button>
+      <button class="mode-btn" data-mode="wound" disabled title="다음 단계에서 구현 예정">차이의 상처</button>
+      <button class="mode-btn" data-mode="graft" disabled title="다음 단계에서 구현 예정">이식·봉합</button>
+    </div>
+
+    <aside class="panel panel-left" id="panel-left"></aside>
+
+    <aside class="panel panel-right" id="panel-right" style="display:none">
+      <h4>관찰 부위</h4>
+      <div id="obs-list"></div>
+    </aside>
+
+    <div class="compare-legend left" id="legend-left" style="display:none"></div>
+    <div class="compare-legend right" id="legend-right" style="display:none"></div>
+
+    <div class="panel panel-bottom" id="panel-bottom"></div>
+  </div>
+
+  <p class="fact-notice" id="notice"></p>
+
+  <script type="module" src="js/detail.js?v=3"></script>
+</body>
+</html>

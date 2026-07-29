@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>해태 표본실</title>
+<meta name="description" content="광화문 월대 해태상 한 쌍을 국가유산 3D 데이터로 다시 보는 디지털 해부실" />
+<link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="stage-spotlight" id="spotlight"></div>
+    <div class="stage-noise"></div>
+
+    <svg class="silhouette" id="silhouette" viewBox="0 0 600 340" preserveAspectRatio="xMidYMax meet" aria-hidden="true" style="opacity:0">
+      <defs>
+        <radialGradient id="silGrad" cx="50%" cy="35%" r="75%">
+          <stop offset="0%" stop-color="#3a3c40" />
+          <stop offset="100%" stop-color="#0a0a0b" />
+        </radialGradient>
+      </defs>
+      <path fill="url(#silGrad)" d="M40 320
+        C 30 300, 45 260, 70 250
+        C 60 230, 65 205, 90 195
+        C 85 165, 105 130, 140 118
+        C 132 100, 140 78, 162 68
+        C 158 52, 170 34, 190 30
+        C 205 20, 225 22, 232 38
+        C 248 34, 262 46, 260 64
+        C 278 66, 288 84, 278 100
+        C 300 108, 305 130, 288 144
+        C 330 150, 370 168, 400 195
+        C 440 190, 480 205, 505 232
+        C 530 236, 552 254, 548 278
+        C 566 284, 574 302, 560 316
+        C 500 330, 420 334, 340 330
+        C 250 336, 150 336, 40 320 Z" />
+    </svg>
+
+    <div class="title-block">
+      <h1 id="title">해태 표본실</h1>
+      <div class="start-btn">
+        <button class="btn btn-primary" id="start-btn" type="button">시작</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="js/main.js?v=2"></script>
+</body>
+</html>
