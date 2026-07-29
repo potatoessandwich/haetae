@@ -1,0 +1,69 @@
+{
+  "notice": {
+    "kr": "이 화면의 절개와 분해는 3D 모델을 활용한 디지털 연출이며, 실제 석상의 내부 구조를 재현한 것이 아닙니다."
+  },
+  "specimens": [
+    {
+      "id": "a",
+      "code": "SPECIMEN A",
+      "directionKr": "서쪽",
+      "directionEn": "WEST",
+      "nameKr": "광화문 월대 해태상 (서쪽)",
+      "sketchfabTitle": "Gwanghwamun Gate_HaetaeA",
+      "author": "국가유산청 KOREA HERITAGE SERVICE [KHS]",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://sketchfab.com/3d-models/gwanghwamun-gate-haetaea-e11f9ee66df74288be83f9fede578bd4",
+      "modelFile": "assets/models/haetae_a.glb",
+      "triangles": 96537,
+      "materials": 1,
+      "textures": 3,
+      "fileSizeMB": 7.34,
+      "observationPoints": [
+        { "id": "face", "labelKr": "머리와 얼굴 윤곽" },
+        { "id": "horn", "labelKr": "머리 위 뿔" },
+        { "id": "mouth", "labelKr": "벌어진 입과 이빨" },
+        { "id": "mane", "labelKr": "목과 등의 갈기" },
+        { "id": "frontpaw", "labelKr": "앞발" },
+        { "id": "backpaw", "labelKr": "뒷발" },
+        { "id": "body", "labelKr": "몸통의 비례와 자세" },
+        { "id": "tail", "labelKr": "꼬리의 흐름" },
+        { "id": "surface", "labelKr": "돌 표면과 조각 흔적" }
+      ]
+    },
+    {
+      "id": "b",
+      "code": "SPECIMEN B",
+      "directionKr": "동쪽",
+      "directionEn": "EAST",
+      "nameKr": "광화문 월대 해태상 (동쪽)",
+      "sketchfabTitle": "Gwanghwamun Gate_HaetaeB",
+      "author": "국가유산청 KOREA HERITAGE SERVICE [KHS]",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://sketchfab.com/3d-models/gwanghwamun-gate-haetaeb-006b419b44b945ea88d5a594acfb22b9",
+      "modelFile": "assets/models/haetae_b.glb",
+      "triangles": 100734,
+      "materials": 1,
+      "textures": 3,
+      "fileSizeMB": 7.43,
+      "observationPoints": [
+        { "id": "face", "labelKr": "머리와 얼굴 윤곽" },
+        { "id": "horn", "labelKr": "머리 위 뿔" },
+        { "id": "mouth", "labelKr": "벌어진 입과 이빨" },
+        { "id": "mane", "labelKr": "목과 등의 갈기" },
+        { "id": "frontpaw", "labelKr": "앞발" },
+        { "id": "backpaw", "labelKr": "뒷발" },
+        { "id": "body", "labelKr": "몸통의 비례와 자세" },
+        { "id": "tail", "labelKr": "꼬리의 흐름" },
+        { "id": "surface", "labelKr": "돌 표면과 조각 흔적" }
+      ]
+    }
+  ],
+  "target": {
+    "kr": "사적 경복궁 광화문 월대 해태상 한 쌍",
+    "publisher": "국가유산청 KOREA HERITAGE SERVICE [KHS]",
+    "portalUrl": "https://digital.khs.go.kr/heritage/heriTage.do",
+    "sketchfabAccountUrl": "https://sketchfab.com/KHS_Asset"
+  }
+}

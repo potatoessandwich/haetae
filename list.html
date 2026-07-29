@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>표본 선택 — 해태 표본실</title>
+<link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">해태 표본실</a>
+    <nav class="crumbs" aria-label="현재 위치">
+      <span>메인</span> / <span class="current">표본 선택</span>
+    </nav>
+  </header>
+
+  <main class="list-wrap">
+    <div class="list-heading">
+      <h2>해부할 표본을 선택하십시오</h2>
+      <p>광화문 월대에 서 있던 해태상 한 쌍이 이곳에서는 표본 번호로 불린다.<br />
+      먼저 하나를 살펴보거나, 두 표본을 겹쳐 비교할 수 있다.</p>
+    </div>
+
+    <div class="card-grid" id="card-grid">
+      <!-- 카드는 js/list.js가 data/specimens.json을 읽어 채운다 -->
+    </div>
+  </main>
+
+  <p class="fact-notice" id="notice"></p>
+
+  <script type="module" src="js/list.js?v=2"></script>
+</body>
+</html>
